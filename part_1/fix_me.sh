@@ -28,3 +28,5 @@ read -p 'Enter b : ' b
 
 ((--c))
 echo What was the default value of c \if its value is now $c?
+
+echo "(Its value was -1!)"
