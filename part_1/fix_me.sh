@@ -26,7 +26,5 @@ read -p 'Enter b : ' b
     dec=$((--b))
           echo Decrement operator when applied on "b" results into b = $b
 
-(
-(--c)
-)
+((--c))
 echo What was the default value of c \if its value is now $c?
