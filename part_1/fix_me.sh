@@ -23,8 +23,7 @@ read - p 'Enter a : ' a
 
             mod
     = $((a % b))
-          echo Modulus of a
-      and b are $mod
+          echo Modulus of a and b are $mod
 
       ((++a))
           echo Increment
