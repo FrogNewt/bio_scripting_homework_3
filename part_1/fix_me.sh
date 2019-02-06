@@ -37,4 +37,4 @@ read - p 'Enter a : ' a
 (
 (--c)
 )
-echo What was the default value \ of c if its value is now $c\?
+echo "What was the default value of c if its value is now $c?"
