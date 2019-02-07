@@ -1,3 +1,8 @@
-#/bin/bash
+#!/bin/bash
+
+
+timenow = time
+
+datenow = date
 
 
