@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 
 # Reading data from the user's input
-a = input("Enter a : ")
+a = input("Enter a (a number): ")
 
 print("You entered", a, "which is a", type(a))
 
-b = input("Enter b : ")
+b = input("Enter b (a number): ")
 
 print("You entered", b, "which is a", type(b))
 
+a = int(a)
+b = int(b)
 
 #######################################################################
 # HINT: why would we be checking what type a and b are again?
