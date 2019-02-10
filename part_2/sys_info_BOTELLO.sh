@@ -12,13 +12,9 @@ uptimenow=uptime
 #Stores the users online now
 usersnow=w
 
-printf "The current time is ${timenow}, the current date is ${datenow}, and the current users logged-in are:\n"
-$usersnow
-
-printf "The system uptime is as follows:"
-$uptimenow
-
-$timenow >> sys_info_BOTELLO.output
-$datenow >> sys_info_BOTELLO.output
+printf "The current time is ${timenow}, the current date is ${datenow}, and the current users logged-in are:\n" >> sys_info_BOTELLO.output
 $usersnow >> sys_info_BOTELLO.output
+
+printf "The system uptime is as follows:" >> sys_info_BOTELLO.output
 $uptimenow >> sys_info_BOTELLO.output
+
